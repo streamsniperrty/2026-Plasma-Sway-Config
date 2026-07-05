@@ -16,6 +16,18 @@ Fonts Used:
 - Tinos (serif)
 - Cousine (monospace)
 
+You will need to make the following edits to the Layan SDDM theme, since the code used in it is deprecated.
+
+In two sections (lines 214 and 358), edit the following properties:
+- `fontSize` -> `font.pixelSize`
+- `iconSource` -> `icon.name`
+
+Example:
+```
+icon.name: XXXXXXX
+font.pixelSize: mainQml.....
+
+```
 ## Sway Configuration
 
 Here are the critical packages required for sway.
