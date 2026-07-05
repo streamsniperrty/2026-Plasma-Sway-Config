@@ -1,6 +1,6 @@
-# 2026 Plasma and Hyprland Config Guide
+# 2026 Plasma and Sway Config Guide
 
-Welcome! This guide will go over how I customized KDE Plasma 6 as well as the Hyprland window manager.
+Welcome! This guide will go over how I customized KDE Plasma 6 as well as the Sway window manager.
 
 ![Plasma Home](/imgs/plasma_home.png)
 
@@ -17,6 +17,14 @@ Fonts Used:
 - Cousine (monospace)
 
 ## Sway Configuration
+
+Here are the critical packages required for sway.
+- sway
+- swaybg
+- swaylock
+- waybar
+
+Copy the config files for sway and waybar.
 
 Install the following packages for sway.
 - fish
