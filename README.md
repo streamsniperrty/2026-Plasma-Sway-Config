@@ -63,3 +63,5 @@ The only things that I changed are the font and color scheme. To change the font
 First, install neovim normally through your package manager. Once completed, install `vim-plug` from https://github.com/junegunn/vim-plug. Then, copy the four files into your own file system, and sync all the plugins by running: `:PlugInstall`.
 
 To use the tree file browser, run `:NvimTreeOpen`.
+
+** NOTE: You will need to update the notification daemon on KDE Plasma once you install `sway-notification-client`. Follow instructions on how to revert to the KDE Plasma notifications.
